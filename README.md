@@ -1,5 +1,5 @@
 # DL-1-Section-1
-Projects about Webscraping from WikiHow using Python Library such as Beautiful Soup
+Project on Webscraping from WikiHow using one of the python library "Beautiful Soup".
 
 # Objective:
 The goal of section 1 is to generate subheadings from a given paragraph using language models and web scraping techniques
