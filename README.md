@@ -1,16 +1,17 @@
-# DL-1-Section-1
-Project on Webscraping from WikiHow using one of the python library "Beautiful Soup".
+# Deep Learning
 
-# Objective:
-The goal of section 1 is to generate subheadings from a given paragraph using language models and web scraping techniques
+## Section 1: Introduction to Blog Generation using Language Models
 
-# Tool used:
-Beautiful Soup is used for web scrapping.It helps in  navigating through complex HTML structure and extracts specific elements (like headings, links, tables).
+### Overview
+This section covers the basics of using language models to generate blog content. The focus is on fine-tuning a pre-trained model to generate subheadings for given paragraphs. Web scraping is employed to create a dataset by extracting content from WikiHow.
 
-# Overview:
-1. Fetches random WikiHow articles.
-2. Parses the HTML content.
-3. Extracts and cleans subheadings and paragraphs.
-4. Processes text to remove unwanted characters.
-5. Appends data to a CSV file
+### Steps
+1. **Language Models**: Understand how language models are used for text generation in natural language processing (NLP).
+2. **Fine-Tuning**: Learn the process of fine-tuning a pre-trained model for specific tasks like generating subheadings for blog content.
+3. **Web Scraping**: Use BeautifulSoup to scrape paragraphs and subheadings from WikiHow and create a dataset.
+4. **Dataset Creation**: Compile the scraped data into a CSV file for use in the fine-tuning process.
 
+### Tools Used
+- **BeautifulSoup**: Python library for web scraping.
+- **Requests**: For making HTTP requests to fetch webpage content.
+- **CSV**: To store the scraped data in a structured format.
